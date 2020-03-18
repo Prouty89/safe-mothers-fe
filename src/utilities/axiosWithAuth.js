@@ -4,7 +4,7 @@ require("dotenv").config();
 const axiosWithAuth = () => {
   const token = localStorage.getItem("token");
   // retrieve API base url from .env
-  const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:5000";
+  const apiUrl = "https://production-be-labs17-safe.herokuapp.com";
   console.log(apiUrl);
   return axios.create({
     // sets base url, and authorization headers with each axios request

@@ -30,7 +30,6 @@ const LoginForm = (props) => {
                     <Form className="form-contents">
                         <h1>Login</h1>
                         <Errors errMsg = {props.error} />
-                        {console.log("BINGO", props.errors)}
                         <label>Username
                             <Field className="form-inputs" type="text" name="username"/>
                             {props.touched.username && props.errors.username && (
@@ -63,8 +62,8 @@ const FormikLoginForm = withFormik({
     },
 
     validationSchema: Yup.object().shape({
-        username: Yup.string().required('Please enter a username'),
-        password: Yup.string().required('Enter a password')
+        username: Yup.string().required('Username is required'),
+        password: Yup.string().required('Password is required')
     }),
 
     handleSubmit(values, {props}) {

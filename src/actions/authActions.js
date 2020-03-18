@@ -18,7 +18,7 @@ export const loginUser = (data, history) => {
     return dispatch => {
         dispatch({type: LOGIN_START});
         return axiosWithAuth()
-            .post('/auth/login', data)
+            .post('auth/login', data)
             .then(res => {
                 localStorage.setItem('token', res.data.token);
                 Mixpanel.track('Login Success');
@@ -27,6 +27,7 @@ export const loginUser = (data, history) => {
             })
             .catch(err => {
                 Mixpanel.track('Login Error');
+                console.log('ERROR', err)
                 dispatch({type: LOGIN_FAILURE, payload: err.response.data.message ? err.response.data.message : ERROR});
             });
     };
