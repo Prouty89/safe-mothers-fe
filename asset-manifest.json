@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.558c0ec9.chunk.css",
+    "main.js": "/static/js/main.cabd83be.chunk.js",
+    "main.js.map": "/static/js/main.cabd83be.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6bc8ad15.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6bc8ad15.js.map",
+    "static/js/2.b901218d.chunk.js": "/static/js/2.b901218d.chunk.js",
+    "static/js/2.b901218d.chunk.js.map": "/static/js/2.b901218d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dd98500d85b745c4ac18942e287cbccd.js": "/precache-manifest.dd98500d85b745c4ac18942e287cbccd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.558c0ec9.chunk.css.map": "/static/css/main.558c0ec9.chunk.css.map",
+    "static/js/2.b901218d.chunk.js.LICENSE.txt": "/static/js/2.b901218d.chunk.js.LICENSE.txt",
+    "static/media/Add.svg": "/static/media/Add.0a5133c8.svg",
+    "static/media/Close.svg": "/static/media/Close.32d19c01.svg",
+    "static/media/CloseCircle.svg": "/static/media/CloseCircle.dcb3e86c.svg",
+    "static/media/Edit.svg": "/static/media/Edit.104dc2a3.svg",
+    "static/media/Group.svg": "/static/media/Group.60ee090a.svg",
+    "static/media/Information.svg": "/static/media/Information.6dc6d7a7.svg",
+    "static/media/Motorcyclist.svg": "/static/media/Motorcyclist.fe30f4b8.svg",
+    "static/media/Pregnant.svg": "/static/media/Pregnant.d1ee4364.svg",
+    "static/media/Rain.svg": "/static/media/Rain.3ebbe9bf.svg",
+    "static/media/Sun.svg": "/static/media/Sun.e17c9d0e.svg",
+    "static/media/WhatsApp Image 2019-10-20 at 5.31 1.svg": "/static/media/WhatsApp Image 2019-10-20 at 5.31 1.5b9953aa.svg",
+    "static/media/eye.svg": "/static/media/eye.e7000557.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6bc8ad15.js",
+    "static/js/2.b901218d.chunk.js",
+    "static/css/main.558c0ec9.chunk.css",
+    "static/js/main.cabd83be.chunk.js"
+  ]
+}
