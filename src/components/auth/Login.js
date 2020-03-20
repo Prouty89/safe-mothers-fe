@@ -46,6 +46,12 @@ const LoginForm = (props) => {
                             <Button className="submit-btn" color="primary" type="submit">Submit</Button>
                         </div>
                     </Form>
+                    <div>
+                       <h4 style={{color: 'red'}}>For Demo Purposes:</h4>  
+                        <p>Username: admin</p>
+                        <p>Password: password</p>
+                        <a href="https://github.com/Prouty89/safe-mothers-fe" target="_blank" style={{color: '#3D689E', fontWeight: '700'}}>Codebase</a>
+                    </div>
                 </div>
             </Container>
         </>
